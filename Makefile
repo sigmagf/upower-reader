@@ -9,6 +9,6 @@ build: clean
 link: build
 	yarn link
 
-publish-github: build
-	npm publish --registry="https://npm.pkg.github.com"
+publish: build
+	npm publish
 	
