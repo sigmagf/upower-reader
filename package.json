@@ -7,7 +7,7 @@
   "repository": "https://github.com/sigmagf/upower-reader",
   "license": "GPL-3.0",
   "scripts": {
-    "once": "ts-node src/index.ts",
+    "once": "ts-node src/test.ts",
     "build": "yarn babel ./src --out-dir ./dist --extensions \".ts,.js\" --copy-files --no-copy-ignored",
     "lint": "eslint . --ext ts,tsx",
     "test": "jest"
