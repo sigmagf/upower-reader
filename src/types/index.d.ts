@@ -27,7 +27,7 @@ export interface UPower<DeviceInfo extends UPowerDeviceInfo = UPowerDeviceInfo> 
   model: string
   serial: string
   powerSupply: boolean
-  updated: Date
+  updated: string
   hasHistory: boolean
   hasStatistics: boolean
   deviceInfo: DeviceInfo
