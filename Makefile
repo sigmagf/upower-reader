@@ -11,7 +11,4 @@ build: install clean
 
 link: build
 	yarn link
-
-publish: build
-	npm publish
 	
